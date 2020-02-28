@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Switch
+        android:id="@+id/mainSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center|left"
+        android:paddingLeft="50dp"
+        android:text="서비스 켜기"
+        android:textSize="20dp" />
+
+    <Switch
+        android:id="@+id/alarmSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center|left"
+        android:paddingLeft="50dp"
+        android:text="알림 메세지 수신 여부"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/recommandSettingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="오늘의 핫딜 추천횟수" />
+
+    <Button
+        android:id="@+id/crawlingCycleSettingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데이터 수집 주기" />
+
+    <Button
+        android:id="@+id/findListSettingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="찾을 물품 리스트" />
+
+    <Button
+        android:id="@+id/resetFoundHotDillButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="포착된 핫딜 초기화" />
+
+</LinearLayout>
